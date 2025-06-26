@@ -1,0 +1,305 @@
+/**
+Company Colors:
+Burnt Red: #e94d40
+Navy Blue: #0c243c
+**/
+
+body {
+  background-color: #e94d40;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0c243c;
+}
+
+.container {
+  background-color: white;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
+
+.page-header {
+  background-color: rgb(255, 255, 255);
+}
+
+.logo {
+  color: white;
+  padding: 12px;
+}
+
+nav {
+  background-color: #e94d40;
+  padding: 10px;
+  text-align: right;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #e94d40;
+  background-color: white;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+a:hover {
+  /* font-size: 12px; */
+  color: white;
+  background-color: #0c243c;
+}
+
+.hero {
+  background-image: url("../img/arjun-lama_flowered-cake_1200-360-px.jpg");
+  background-size: cover;
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+
+.promise {
+  margin: 8px;
+  color: white;
+}
+
+.promise-note {
+  color: #0c243c;
+}
+
+.promise-note tr {
+  width: 100%;
+  text-align: center;
+}
+
+.promise-note th {
+  text-align: center;
+}
+
+.promise-note td {
+  text-align: center;
+  color: white;
+  height: 50px;
+  width: 25%;
+  background-color: #0c243c;
+  border-radius: 5px;
+}
+
+.promise-note img {
+  text-align: center;
+  color: white;
+  height: 100%;
+  background-color: #0c243c;
+  border-radius: 5px;
+}
+
+.promise-header {
+  background-color: #e94d40;
+  padding: 3px;
+  padding-left: 8px;
+  font-size: x-large;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.promise-title {
+  background-color: #e94d40;
+  padding: 5px;
+  padding-left: 8px;
+  font-size: x-large;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.promise-title td {
+  background-color: #e94d40;
+  padding-left: 8px;
+  font-size: x-large;
+  font-weight: 600;
+  margin-bottom: 5px;
+  height: 30px;
+  text-align: left;
+}
+
+.feature {
+  margin: 8px;
+  color: white;
+}
+
+.featured-header {
+  background-color: #e94d40;
+  padding: 3px;
+  padding-left: 8px;
+  font-size: x-large;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.featured-item h3 {
+  color: white;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.featured-item h3:hover {
+  color: #e94d40;
+  font-size: 14pt;
+}
+
+.featured-items {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  background-color: #0c243c;
+}
+
+.featured-item img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.featured-item img:hover {
+  width: 100%;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+.featured-item {
+  padding: 8px;
+  width: 33%;
+  font-size: 10pt;
+}
+
+.copyright {
+  background-color: white;
+  max-width: 90%;
+  margin: auto;
+  color: #0c243c;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+
+/** CONTACTS **/
+input[type=text],input[type=date],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: white;
+  color: #0c243c;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #e94d40;
+  color: white;
+}
+
+.contact {
+  display: flex;
+  background-color: white;
+  max-width: 90%;
+  margin: auto;
+  margin-bottom: 5px;
+  background-image: url("../img/assessment/luisana-zerpa_red-velvet-cupcakes_web_landscape.jpg");
+  background-size: cover;
+}
+
+.contact-form {
+  margin: 8px;
+  color: white;
+  background-color: white;
+  padding: 5px;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 5px;
+  width: 60%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.contact-form-header {
+  background-color: #e94d40;
+  padding: 3px;
+  padding-left: 8px;
+  font-size: x-large;
+  font-weight: 600;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.contact-form-details {
+  background-color: #0c243c;
+  padding: 12px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.information {
+  width: 100%;
+}
+
+.information td {
+  height: 20px;
+  padding-left: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.information th {
+  height: 20px;
+  border: 2px solid #ccc;
+  padding-left: 8px;
+  text-align: left;
+  color: #0c243c;
+  margin: 3px;
+  background-color: rgb(245, 178, 178);
+}
+
+.about-items {
+  display: flex;
+}
+
+.about-item {
+  padding: 2px;
+  width: 33%;
+}
+
+.about-item img {
+  width: 100%;
+  border-radius: 2%;
+}
