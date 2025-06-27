@@ -71,10 +71,39 @@ a:hover {
   text-align: center;
 }
 
+.cta {
+  background-color: white;
+  width: 250px;
+  height: 200px;
+  font-size: small;
+  position: relative;
+  left: 50px;
+  top: 30px;
+  padding: 20px;
+  opacity: 70%;
+}
 
 .promise {
   margin: 8px;
   color: white;
+}
+
+.cta h2{
+  color: #0c243c;
+}
+
+.cta button{
+  display: block;
+  padding: 10px;
+  background-color: #0c243c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.cta button:hover{
+  background-color: #e94d40;
+  cursor: pointer;
 }
 
 .promise-note {
